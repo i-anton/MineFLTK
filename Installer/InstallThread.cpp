@@ -49,7 +49,7 @@ void InstallThread::createConfFiles()
 				"832EDn)UVO",
 				"Ev921Akble"
 			};
-			pathw += L"\\AppData\\Roaming\\MineFLTK\\";
+			pathw += L"\\AppData\\Roaming\\IBL\\";
 			std::string pathS(pathw.begin(), pathw.end());
 			if (CreateDirectory(pathS.c_str(), NULL) ||
 				ERROR_ALREADY_EXISTS == GetLastError())
